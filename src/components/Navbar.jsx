@@ -22,9 +22,9 @@ const Navbar = () => {
                     <AiOutlineMenu size={30} />
                 </div>
 
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-                    Best <span className="font-bold">Eats</span>
-                </h1>
+                <span className="font-bold text-2xl sm:text-3xl lg:text-4xl px-2">
+                    hungry
+                </span>
 
                 <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
                     <p className="bg-black text-white rounded-full p-2">
@@ -70,38 +70,38 @@ const Navbar = () => {
                     className=" absolute right-4 top-4 cursor-pointer"
                 />
                 <h2 className="text-2xl p-4">
-                    BEST <span className="font-semibold">Eats</span>
+                    <span className="font-semibold">hungry</span>
                 </h2>
 
                 <nav>
-                    <ul className="flex flex-col p-4 text-gray-800">
-                        <li className="text-xl py-4 flex">
+                    <ul className="flex flex-col p-4 text-gray-800 ">
+                        <li className="text-xl py-4 flex cursor-pointer  hover:text-orange-500 transition duration-300">
                             <TbTruckDelivery size={25} className="mr-4" />{" "}
                             Orders
                         </li>
 
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer  hover:text-orange-500 transition duration-300">
                             <MdFavorite size={25} className="mr-4" /> Favorites
                         </li>
 
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer  hover:text-orange-500 transition duration-300">
                             <FaWallet size={25} className="mr-4" /> Wallet
                         </li>
 
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer  hover:text-orange-500 transition duration-300">
                             <MdHelp size={25} className="mr-4" /> Help
                         </li>
 
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer  hover:text-orange-500 transition duration-300">
                             <AiFillTag size={25} className="mr-4" /> Promotion
                         </li>
 
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer  hover:text-orange-500 transition duration-300">
                             <BsFillSaveFill size={25} className="mr-4" /> Best
                             Ones
                         </li>
 
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer  hover:text-orange-500 transition duration-300">
                             <FaUserFriends size={25} className="mr-4" /> Invite
                         </li>
                     </ul>
