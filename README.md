@@ -1,6 +1,7 @@
 <div align="center"><h1> hungry </h1> </div>
 
-## Website is Live : [https://boisterous-rugelach-3eb88e.netlify.app/](https://boisterous-rugelach-3eb88e.netlify.app/)
+## Website is Live : [Demo](https://boisterous-rugelach-3eb88e.netlify.app/)
+
 
 # Screenshots
 ![Screenshot 2023-04-25 191230](https://user-images.githubusercontent.com/113006456/234296957-615d49f3-51b9-41ca-8c5c-6ea336d9a220.png)
